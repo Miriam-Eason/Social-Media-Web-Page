@@ -6,13 +6,22 @@ import { profile } from './data/db.json'
 import {
     // NavBar
     navbar_container_logo,
-    navbar_container_create_img
+    navbar_container_create_img,
+    // Main
+    // Left
+    left_profile_img,
+    left_profile_name,
+    left_profile_at,
 } from "@/js/common"
 
 /* NAV */
 navbar_container_logo.textContent = "Topsocial";
 navbar_container_create_img.src = profile.img_src;
+
 /* LEFT */
+left_profile_img.src = profile.img_src;
+left_profile_name.textContent = profile.name;
+left_profile_at.textContent = profile.at;
 
 /* MIDDLE */
 

@@ -8,9 +8,15 @@ export const navbar_container_create_img = navbar_container.querySelector('img')
 
 
 /* Main */
-
+export const main = document.querySelector('main');
+export const main_container = main.querySelector('.container');
 
 /* Main Left */
+export const left =  main_container.querySelector('.main-left');
+export const left_profile = left.querySelector('.profile');
+export const left_profile_img = left_profile.querySelector('img');
+export const left_profile_name = left_profile.querySelector('h2');
+export const left_profile_at = left.querySelector('p');
 
 
 /* Main Middle */

@@ -26,6 +26,7 @@ nav .container .logo {
   text-transform: uppercase;
   /*transfer letter to uppercase*/
   font-family: "Comfortaa", cursive;
+  font-size: 1.2rem;
 }
 
 nav .container .create {
