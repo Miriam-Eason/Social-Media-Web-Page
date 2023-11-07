@@ -10,7 +10,7 @@
   font-weight: 500;
   border-radius: var(--btn-border-radius);
   cursor: pointer;
-  transform: all 300ms ease;
+  transition: all 300ms ease;
   font-size: 0.9rem;
 }
 
@@ -21,7 +21,7 @@
 
 .btn-cancel {
   background: var(--color-white);
-  box-shadow: 0 0 1px var(--color-gary);
+  box-shadow: 0 0 1px var(--color-gray);
   color: var(--color-black);
 }
 

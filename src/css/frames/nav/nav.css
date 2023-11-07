@@ -3,18 +3,17 @@
   --nav-background-color: #fff;
 }
 
+
 nav {
   display: block;
   position: fixed;
   z-index: 999;
-  /**/
 
   width: 100%;
   top: 0;
   padding: 0.7rem 0;
   background: var(--nav-background-color);
 }
-
 
 nav .container {
   display: flex;
@@ -24,9 +23,7 @@ nav .container {
 
 nav .container .logo {
   text-transform: uppercase;
-  /*transfer letter to uppercase*/
   font-family: "Comfortaa", cursive;
-  font-size: 1.2rem;
 }
 
 nav .container .create {
@@ -35,4 +32,3 @@ nav .container .create {
   align-items: center;
   gap: 1rem;
 }
-

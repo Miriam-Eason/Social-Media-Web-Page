@@ -7,7 +7,7 @@
 
 .main-left {
   position: relative;
-  height: calc(100vh - 5.4rem);
+  height: 100vh;
   min-width: 200px;
   overflow-x: hidden;
 }
@@ -20,15 +20,15 @@
   display: flex;
   align-items: center;
   padding: var(--left-profile-padding);
-  border-radius: var(--left-profile-radius);
   background: var(--left-profile-background-color);
+  border-radius: var(--left-profile-radius);
   column-gap: 1rem;
-  margin-bottom: 1rem;
   width: 100%;
 }
 
 .main-left .profile p {
   font-size: 0.7rem;
+  color: var(--color-gray);
 }
 
 .main-left .btn {

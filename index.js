@@ -22,6 +22,8 @@ navbar_container_create_img.src = profile.img_src;
 
 /* LEFT */
 left.appendChild(left_profile);
+console.log(left);
+console.log(left_profile);
 // left_profile_img.src = profile.img_src;
 // left_profile_name.textContent = profile.name;
 // left_profile_at.textContent = profile.at;
