@@ -4,6 +4,72 @@
     "at": "@EldenRing",
     "img_src": "/images/profile/profile_1.png"
   },
+  "sidebar": [
+    {
+      "id": 1,
+      "name": "Home",
+      "icon_class_list": [
+        "uil",
+        "uil-house-user"
+      ]
+    },
+    {
+      "id": 2,
+      "name": "Explore",
+      "icon_class_list": [
+        "uil",
+        "uil-compass"
+      ]
+    },
+    {
+      "id": 3,
+      "name": "Notifications",
+      "icon_class_list": [
+        "uil",
+        "uil-bell"
+      ]
+    },
+    {
+      "id": 4,
+      "name": "Messages",
+      "icon_class_list": [
+        "uil",
+        "uil-envelope-alt"
+      ]
+    },
+    {
+      "id": 5,
+      "name": "Bookmarks",
+      "icon_class_list": [
+        "uil",
+        "uil-bookmark"
+      ]
+    },
+    {
+      "id": 6,
+      "name": "Analytics",
+      "icon_class_list": [
+        "uil",
+        "uil-chart-line"
+      ]
+    },
+    {
+      "id": 7,
+      "name": "Theme",
+      "icon_class_list": [
+        "uil",
+        "uil-palette"
+      ]
+    },
+    {
+      "id": 8,
+      "name": "Settings",
+      "icon_class_list": [
+        "uil",
+        "uil-setting"
+      ]
+    }
+  ], 
   "highline": {
     "description": [
       "Your Stories",
