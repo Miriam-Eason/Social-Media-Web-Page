@@ -1,5 +1,6 @@
-import { create_profile, Profile } from "@/js/components/profiles.js";
-import { profile } from "/data/db.json";
+import { Profile } from "@/js/components/profiles.js";
+import {Sidebar} from "@/js/components/sidebar";
+import { profile, sidebar } from "/data/db.json";
 
 /* NavBar */
 export const navbar = document.querySelector('nav');
@@ -16,10 +17,8 @@ export const main_container = main.querySelector('.container');
 
 /* Main Left */
 export const left = main_container.querySelector('.main-left');
-const left_profile_info = new Profile(profile.img_src, profile.name, profile.at);
-console.log(left_profile_info);
-export const left_profile = left_profile_info.build();
-
+export const left_profile = new Profile(profile.img_src, profile.name, profile.at).build();
+export const left_sidebar = new Sidebar(sidebar).build();
 // const profileInfo = new Profile(profile.img_src, profile.name, profile.at);
 // export const left_profile = create_profile(profile.img_src, profile.name, profile.at);
 // export const left_profile = left.querySelector('.profile');
