@@ -1,8 +1,17 @@
+// Left
 import { Profile } from "@/js/components/mainLeft/profiles.js";
-import {Sidebar} from "@/js/components/mainLeft/sidebar";
-import {create_post} from "@/js/components/mainLeft/createPostBtn";
+import { Sidebar } from "@/js/components/mainLeft/sidebar";
+import { create_post } from "@/js/components/mainLeft/createPostBtn";
+
+// Middle
 import { HighLine } from "@/js/components/mainMiddle/highline";
-import { profile, sidebar, highline } from "/data/db.json";
+
+// Right
+import {create_message} from "@/js/components/mainRight/message";
+import { friendList } from "@/js/components/mainRight/friendList";
+
+// Data
+import { profile, sidebar, highline, message } from "/data/db.json";
 
 /* NavBar */
 export const navbar = document.querySelector('nav');
@@ -26,25 +35,12 @@ export const left_sidebar_post_btn = new create_post();
 /* Main Middle */
 export const middle = main_container.querySelector('.main-middle');
 export const middle_highline = new HighLine(highline).build();
-
-const highline_info = new HighLine(highline);
-highline_info.build();
-console.log(highline_info.dom);
-
-
-/* Create News */
-
-
-/* Create Profile */
-
-
-/* Create Picture */
-
-
-/* Create Control */
-
-
-/* Create Comment */
-
+//
+// const highline_info = new HighLine(highline);
+// highline_info.build();
+// console.log(highline_info.dom);
 
 /* Main Right */
+export const right =main_container.querySelector('.main-right');
+export const right_message = create_message();
+export const right_friends = new friendList(message).build();

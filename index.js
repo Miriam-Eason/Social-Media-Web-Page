@@ -8,13 +8,22 @@ import {
     navbar_container_logo,
     navbar_container_create_img,
     // Main
+
+    // Main Left
     left,
     left_profile,
     left_sidebar,
     left_sidebar_post_btn,
 
+    // Main Middle
     middle,
     middle_highline,
+
+    // Main Right
+    right,
+    right_message,
+    right_friends,
+
 } from "@/js/common"
 
 /* NAV */
@@ -28,3 +37,7 @@ left.appendChild(left_sidebar_post_btn);
 
 /* MIDDLE */
 middle.appendChild(middle_highline);
+
+/* Right */
+right.appendChild(right_message);
+right_message.appendChild(right_friends);
