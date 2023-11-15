@@ -27,6 +27,11 @@ export const left_sidebar_post_btn = new create_post();
 export const middle = main_container.querySelector('.main-middle');
 export const middle_highline = new HighLine(highline).build();
 
+const highline_info = new HighLine(highline);
+highline_info.build();
+console.log(highline_info.dom);
+
+
 /* Create News */
 
 
