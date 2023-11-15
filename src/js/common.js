@@ -1,5 +1,6 @@
 import { Profile } from "@/js/components/profiles.js";
 import {Sidebar} from "@/js/components/sidebar";
+import {create_post} from "@/js/components/createPostBtn";
 import { profile, sidebar } from "/data/db.json";
 
 /* NavBar */
@@ -19,6 +20,7 @@ export const main_container = main.querySelector('.container');
 export const left = main_container.querySelector('.main-left');
 export const left_profile = new Profile(profile.img_src, profile.name, profile.at).build();
 export const left_sidebar = new Sidebar(sidebar).build();
+export const left_sidebar_post_btn = new create_post();
 // const profileInfo = new Profile(profile.img_src, profile.name, profile.at);
 // export const left_profile = create_profile(profile.img_src, profile.name, profile.at);
 // export const left_profile = left.querySelector('.profile');
