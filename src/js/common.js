@@ -1,7 +1,8 @@
-import { Profile } from "@/js/components/profiles.js";
-import {Sidebar} from "@/js/components/sidebar";
-import {create_post} from "@/js/components/createPostBtn";
-import { profile, sidebar } from "/data/db.json";
+import { Profile } from "@/js/components/mainLeft/profiles.js";
+import {Sidebar} from "@/js/components/mainLeft/sidebar";
+import {create_post} from "@/js/components/mainLeft/createPostBtn";
+import { HighLine } from "@/js/components/mainMiddle/highline";
+import { profile, sidebar, highline } from "/data/db.json";
 
 /* NavBar */
 export const navbar = document.querySelector('nav');
@@ -21,16 +22,10 @@ export const left = main_container.querySelector('.main-left');
 export const left_profile = new Profile(profile.img_src, profile.name, profile.at).build();
 export const left_sidebar = new Sidebar(sidebar).build();
 export const left_sidebar_post_btn = new create_post();
-// const profileInfo = new Profile(profile.img_src, profile.name, profile.at);
-// export const left_profile = create_profile(profile.img_src, profile.name, profile.at);
-// export const left_profile = left.querySelector('.profile');
-// export const left_profile_img = left_profile.querySelector('img');
-// export const left_profile_name = left_profile.querySelector('h2');
-// export const left_profile_at = left.querySelector('p');
-
 
 /* Main Middle */
-
+export const middle = main_container.querySelector('.main-middle');
+export const middle_highline = new HighLine(highline).build();
 
 /* Create News */
 
