@@ -12,6 +12,9 @@ import {
     left_profile,
     left_sidebar,
     left_sidebar_post_btn,
+
+    middle,
+    middle_highline,
 } from "@/js/common"
 
 /* NAV */
@@ -22,3 +25,6 @@ navbar_container_create_img.src = profile.img_src;
 left.appendChild(left_profile);
 left.appendChild(left_sidebar);
 left.appendChild(left_sidebar_post_btn);
+
+/* MIDDLE */
+middle.appendChild(middle_highline);
