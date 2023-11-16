@@ -18,6 +18,7 @@ import {
     // Main Middle
     middle,
     middle_highline,
+    middle_create_post,
 
     // Main Right
     right,
@@ -38,6 +39,7 @@ left.appendChild(left_sidebar_post_btn);
 
 /* MIDDLE */
 middle.appendChild(middle_highline);
+middle.appendChild(middle_create_post);
 
 /* Right */
 right.appendChild(right_message);

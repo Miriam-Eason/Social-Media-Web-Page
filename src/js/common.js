@@ -5,6 +5,7 @@ import { create_post } from "@/js/components/mainLeft/createPostBtn";
 
 // Middle
 import { HighLine } from "@/js/components/mainMiddle/highline";
+import { create_simple_post } from "@/js/components/mainMiddle/createPost";
 
 // Right
 import {create_message} from "@/js/components/mainRight/message";
@@ -13,7 +14,7 @@ import { RequestList } from "@/js/components/mainRight/requestList";
 
 
 // Data
-import { profile, sidebar, highline, message, request } from "/data/db.json";
+import { profile, sidebar, highline, message, request, cards } from "/data/db.json";
 
 /* NavBar */
 export const navbar = document.querySelector('nav');
@@ -37,6 +38,7 @@ export const left_sidebar_post_btn = new create_post();
 /* Main Middle */
 export const middle = main_container.querySelector('.main-middle');
 export const middle_highline = new HighLine(highline).build();
+export const middle_create_post = create_simple_post(profile);
 //
 // const highline_info = new HighLine(highline);
 // highline_info.build();
