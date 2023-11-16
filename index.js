@@ -23,6 +23,7 @@ import {
     right,
     right_message,
     right_friends,
+    right_request,
 
 } from "@/js/common"
 
@@ -41,3 +42,4 @@ middle.appendChild(middle_highline);
 /* Right */
 right.appendChild(right_message);
 right_message.appendChild(right_friends);
+right.appendChild(right_request);

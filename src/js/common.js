@@ -9,9 +9,11 @@ import { HighLine } from "@/js/components/mainMiddle/highline";
 // Right
 import {create_message} from "@/js/components/mainRight/message";
 import { friendList } from "@/js/components/mainRight/friendList";
+import { RequestList } from "@/js/components/mainRight/requestList";
+
 
 // Data
-import { profile, sidebar, highline, message } from "/data/db.json";
+import { profile, sidebar, highline, message, request } from "/data/db.json";
 
 /* NavBar */
 export const navbar = document.querySelector('nav');
@@ -44,3 +46,4 @@ export const middle_highline = new HighLine(highline).build();
 export const right =main_container.querySelector('.main-right');
 export const right_message = create_message();
 export const right_friends = new friendList(message).build();
+export const right_request = new RequestList(request).build();
