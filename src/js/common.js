@@ -6,6 +6,7 @@ import { create_post } from "@/js/components/mainLeft/createPostBtn";
 // Middle
 import { HighLine } from "@/js/components/mainMiddle/highline";
 import { create_simple_post } from "@/js/components/mainMiddle/createPost";
+import { CardList } from "@/js/components/mainMiddle/cardList";
 
 // Right
 import {create_message} from "@/js/components/mainRight/message";
@@ -39,6 +40,7 @@ export const left_sidebar_post_btn = new create_post();
 export const middle = main_container.querySelector('.main-middle');
 export const middle_highline = new HighLine(highline).build();
 export const middle_create_post = create_simple_post(profile);
+export const middle_card_list = new CardList(cards).build();
 //
 // const highline_info = new HighLine(highline);
 // highline_info.build();

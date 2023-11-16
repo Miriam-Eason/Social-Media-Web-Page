@@ -19,6 +19,7 @@ import {
     middle,
     middle_highline,
     middle_create_post,
+    middle_card_list,
 
     // Main Right
     right,
@@ -40,6 +41,7 @@ left.appendChild(left_sidebar_post_btn);
 /* MIDDLE */
 middle.appendChild(middle_highline);
 middle.appendChild(middle_create_post);
+middle.appendChild(middle_card_list);
 
 /* Right */
 right.appendChild(right_message);
